@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+}
+
+header{
+    position: relative;
+    margin:0px;
+    width: 100%;
+    height: 30px;
+    background-color:floralwhite
+}
+
+nav {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    background-color:navajowhite;
+}
+
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+    
+}
+nav ul li{
+    display:inline;
+    text-align: center;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.nav-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+}
+
+.nav-item  a {
+    font-size: 16px;
+    font-weight: normal;
+    color:black;
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    vertical-align: bottom;
+    z-index: 100;
+}
+
+.item-name {
+    padding: 0 25px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav-item .mark {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+}
+
+
+.inner{
+    margin:0px;
+    width:100%;
+    padding-top: 0px;
+    height: 1150px;
+    background-color: antiquewhite;
+}
+
+
+.container{
+    margin: 0px;
+}
+    
+.container p{
+    font-size: 38px;
+    font-weight: bold;
+    color:orange;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.picture{
+    width: 800px;
+    height: 500px;
+    background:antiquewhite;
+    padding-left: 300px;
+}
+.picture #container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;   
+}
+
+#photo{
+    width:2400px;
+    
+    animation: switch 8s ease-out infinite;
+}
+
+#photo > img{
+    float: left;
+    width: 800px;
+    height: 500px;
+}
+
+
+@keyframes switch {
+	0%, 25% {
+		margin-left: 0;
+	}
+	35%, 60% {
+		margin-left: -800px;
+	}
+	70%, 100% {
+		margin-left: -1600px;
+	}
+}
+
+
+.introduce{
+    width:95%;
+    height:500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fdf6f0;
+    vertical-align: center;
+    text-indent: 2em;
+    padding:10px
+}
+
+h1{
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color:firebrick;
+    vertical-align: center;
+}
+
+
+
+
+footer{
+    margin:0px;
+    width: 100%;
+    height: 30px;
+    background-color:floralwhite;
+    text-align: center;
+    color:lightslategray;
+    font-size: 12px;
+    position: relative;
+}

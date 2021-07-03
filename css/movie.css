@@ -1,0 +1,183 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 30px;
+    background-color:floralwhite
+}
+
+nav {
+    width:1400px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    background-color:navajowhite;
+}
+
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+    
+}
+nav ul li{
+    display:inline;
+    text-align: center;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.nav-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+}
+
+.nav-item  a {
+    font-size: 16px;
+    font-weight: normal;
+    color:black;
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    vertical-align: bottom;
+    z-index: 100;
+}
+
+.item-name {
+    padding: 0 25px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav-item .mark {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+}
+
+.inner{
+    margin-left: auto;
+    margin-right: auto;
+    width:1400px;
+    padding-top: 0px;
+    height: 1650px;
+    background-color: antiquewhite;
+}
+
+.container{
+    margin: 0px;
+}
+    
+.container p{
+    font-size: 38px;
+    font-weight: bold;
+    color:orange;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.contain1{
+    width:1400px;
+    margin:0 auto;
+    padding:0px;
+    background-color:tomato;
+    
+}
+
+.contain1-1{
+    width: 1300px;
+    height:600px;
+    position: relative;
+    padding-left: 75px;
+}
+img{
+    width:auto;
+    height:auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.AB{
+    margin-top: 20px;
+    background-color: tomato;
+    width:1400px;
+    height:450px;
+}
+
+
+.ab{
+    width:400px;
+    height:450px;
+    float:left;
+    position: relative;
+}
+
+.ab img{
+    width:auto;
+    height:auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.abb{
+    display: inline-block;
+    float:left;
+    margin-top: 20px;
+    margin-left: 50px;
+    width:900px;
+    text-indent: 2em;
+    color:whitesmoke;
+}
+
+.Her{
+    margin-top: 20px;
+    background-color: tomato;
+    width:1400px;
+    height:460px;
+}
+
+
+
+
+footer{
+    position: relative;
+    width: 1400px;
+    height: 30px;
+    background-color:floralwhite;
+    text-align: center;
+    color:lightslategray;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
